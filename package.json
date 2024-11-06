@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only server.ts",
     "build": "tsc",
-    "start": "node build/server.js"
+    "start": "ts-node-dev --respawn --transpile-only server.ts"
   },
   "keywords": [],
   "author": "shahriar sajeeb",
